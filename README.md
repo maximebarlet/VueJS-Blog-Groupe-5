@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # VueJS-Blog-Groupe-5
-=======
+
 # web2-g1-grp5
 
 ## Project setup
@@ -25,4 +24,3 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> init
