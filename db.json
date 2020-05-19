@@ -27,16 +27,19 @@
       "id": 1,
       "title": "Burger King",
       "body": "Burger King, parfois abrégé en son acronyme BK, est une grande chaîne de restauration rapide américaine qui compte plus de 13 000 lieux de vente dans 88 pays, dont les deux tiers aux États-Unis, et beaucoup au Canada. En Australie, les 300 restaurants Burger King portent le nom de Hungry Jack's. Le siège social de Burger King est situé à 5505 Blue Lagoon Drive, Miami-Dade Co, en Floride, près de Miami, le lieu d'origine du restaurant. Burger King est, depuis 2014, une filiale de la société canadienne Tim Hortons du groupe Restaurant Brands International basée à Toronto."
+      "img": "burgerkingHomePic.png"
     },
     {
       "id": 2,
       "title": "Pizza Hut",
       "body": "Pizza Hut, Inc. est une chaîne de restauration rapide en franchise dont le siège social est situé dans la région de Dallas au Texas. Elle est spécialisée dans les pizzas, mais ses menus comprennent également des salades, des desserts et des plats cuisinés à base de pâtes. Pizza Hut est un des leaders mondiaux de la livraison de pizzas à domicile et est implantée dans de très nombreux pays, notamment en Europe. La société possède plus de 13 000 restaurants à travers le monde en 1999, dont la majeure partie suit le concept de la livraison à domicile (3000) et de la vente-à-emporter. L'enseigne sert chaque jour 5 millions de consommateurs dans le monde. À la fin 2011, après quelques vicissitudes et opérations de cessions/reprises, elle revendique 13 500 points de vente ou restaurants. Pizza Hut compte 1290 restaurants dans 29 pays du Vieux Continent et notamment en France depuis 1987."
+      "img": "pizzahutHomePic.png"
     },
     {
       "id": 3,
       "title": "KFC",
       "body": "KFC (Kentucky Fried Chicken), PFK (Poulet Frit Kentucky) au Québec (Canada), est une chaîne de restauration rapide américaine. Basée à Louisville dans le Kentucky, l'entreprise fait partie du groupe Yum!. La marque, fondée au milieu du XXe siècle par le colonel Harland Sanders, est connue pour ses recettes à base de poulet frit. Dans les années 2010, la chaîne sert chaque jour près de 8 millions de clients dans le monde dans ses 20 000 restaurants, dont 98 % sont gérés en franchise et répartis à travers 135 pays et possède un logo visible depuis l'espace. La présence de KFC dans le monde fait de l'enseigne un des chefs de file internationaux dans l'industrie de la restauration rapide. Sa spécificité est de proposer uniquement des préparations à base de poulet."
+      "img": "kfcHomePic.png"
     }
   ]
 }
