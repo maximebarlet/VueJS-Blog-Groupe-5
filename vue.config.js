@@ -1,6 +1,6 @@
 module.exports = {
 	pwa: {
-		name: 'pwa',
+		name: 'My Food',
 		themeColor: '#4DBA87',
 		msTileColor: '#000000',
 		appleMobileWebAppCapable: 'yes',
