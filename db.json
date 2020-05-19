@@ -3,6 +3,7 @@
     {
       "userId": 1,
       "id": 1,
+      "date": "18/05/2020"
       "title": "McDonald's révéle, à la surprise générale, l'un de ses secret les mieux gardé.",
       "body": "La recette de la fameuse sauce BigMac, dont le secret était bien gardé depuis sa création, à été révélée par l'un des chefs Mcdonald's"
     },
@@ -10,12 +11,14 @@
       "userId": 1,
       "id": 2,
       "title": "Burger King débarque (à nouveau) en France, les clients crient leur joie sur les réseaux sociaux.",
+      "date": "18/04/2020"
       "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
     },
     {
       "userId": 1,
       "id": 3,
       "title": "Disparition des Quick en France ? Nous démélons le vrai du faux pour vous !",
+      "date": "18/03/2020"
       "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
     }
   ]
