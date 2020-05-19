@@ -1,4 +1,4 @@
-# pwa
+# VueJS-MyFoodBlog-Groupe-5
 
 ## Project setup
 ```
