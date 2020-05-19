@@ -1,6 +1,4 @@
-# VueJS-Blog-Groupe-5
-
-# web2-g1-grp5
+# pwa
 
 ## Project setup
 ```

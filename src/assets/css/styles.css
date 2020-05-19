@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.link {
+  text-decoration: none;
+}
