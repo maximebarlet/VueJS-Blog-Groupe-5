@@ -1,12 +1,19 @@
 <template>
   <div v-if="restaurants">
+    <Header /> 
     <h1> {{ restaurants.title }} </h1>
     <p> {{ restaurants.body }} </p>
   </div>
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
+
 export default {
+  name: 'Restaurants',
+  components: {
+    Header
+  },  
   data() {
     return {
       restaurants: null,

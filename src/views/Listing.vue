@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <Header/>
     <h1>Découvrez tous nos articles</h1>
     <div class="content">
       <div class="card" v-for="post in posts" :key="post.id">
@@ -12,7 +13,14 @@
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
+
 export default {
+  name: 'Listing',
+  components: {
+    Header,
+  },
+
   data() {
     return {
       posts: null,

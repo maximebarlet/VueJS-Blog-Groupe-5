@@ -1,5 +1,6 @@
 <template>
   <div v-if="post">
+    <Header />
     <h1> {{ post.title }} </h1>
     <p> Posté le {{ post.date }} </p>
     <p> {{ post.body }} </p>
@@ -7,7 +8,13 @@
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
+
 export default {
+  name: 'Article',
+  components: {
+    Header
+  },
   data() {
     return {
       post: null,
