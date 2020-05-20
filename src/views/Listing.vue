@@ -52,7 +52,7 @@ export default {
   src: url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
 }
 .about{
-  height: 100vh;
+  height: 150vh;
   background-image: url("../assets/img/png-transparent-hamburger-french-fries-fast-food-onion-ring-fried-chicken-hd-fries-potato-fries-food.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -61,34 +61,34 @@ export default {
 .content {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
-  margin-left: 15%;
+  width: 100%;
+  margin-left: 0%;
 }
 
 .card {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   padding: 10px;
-  margin-left: 50%;
-  transform: translate(-50%, -0%);
   align-items: center;
   justify-content: space-between;
   display: flex;
+  float: right;
 }
 .picture{
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   background-color: tomato;
 }
 .picture img{
   object-fit: cover;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
 }
 .article_link{
-  max-width: 70%;
+  width: 70%;
+  height: 100px;
   background-color: white;
-  height: 100%;
-  padding: 20px;
+  padding: 40px 20px;
   font-family: "Abhaya Libre";
 }
 .link {

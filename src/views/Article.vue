@@ -1,10 +1,10 @@
 <template>
-  <div v-if="post">
+  <div v-if="post" class="post">
     <Header />
     <img :src="require(`@/assets/img/${post.miniature}`)" alt="miniature article" />
-    <h1> {{ post.title }} </h1>
-    <p> Posté le {{ post.date }} </p>
-    <p> {{ post.body }} </p>
+    <h1 class="title"> {{ post.title }} </h1>
+    <p class="date"> Posté le {{ post.date }} </p>
+    <p class="content"> {{ post.body }} </p>
   </div>
 </template>
 
@@ -36,9 +36,15 @@ export default {
 </script>
 
 <style scoped>
-h1{
+.post{
+}
+.title{
   font-size: 40px;
   margin-bottom: 10px;
+}
+.content{
+  margin: 25px 0px;
+  font-size: 20px;
 }
 img{
   height: 400px;
