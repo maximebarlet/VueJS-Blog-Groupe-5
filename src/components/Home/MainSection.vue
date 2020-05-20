@@ -52,6 +52,7 @@ export default {
   font-size: 25px;
   text-align: center; 
   font-family: 'Klarissa';
+  font-weight: bolder;
   width: 50%;
   margin: 5% 50%;
   transform: translate(-50%, -0%)

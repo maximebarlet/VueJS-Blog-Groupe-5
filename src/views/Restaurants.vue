@@ -1,6 +1,7 @@
 <template>
   <div v-if="restaurants">
     <Header /> 
+    <img :src="require(`@/assets/img/${restaurants.logo}`)" alt="logo restaurant" />
     <h1> {{ restaurants.title }} </h1>
     <p> {{ restaurants.body }} </p>
   </div>
@@ -32,3 +33,16 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: top;
+}
+</style>

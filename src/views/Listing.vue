@@ -1,14 +1,17 @@
 <template>
   <div class="about">
-    <img src="@/assets/img/png-transparent-hamburger-french-fries-fast-food-onion-ring-fried-chicken-hd-fries-potato-fries-food.png" alt="Frech fries" class="background">
+    <Header />
     <!--<h1>Découvrez tous nos articles</h1>-->
     <div class="content">
       <div class="card" v-for="post in posts" :key="post.id">
-        <div class="picture"></div>
+        <div class="picture">
+          <img :src="require(`@/assets/img/${post.miniature}`)" alt="miniature article" />
+        </div>
         <div class="article_link">
           <router-link :to="`/article/${ post.id }`" class="link">
             {{ post.title }}
           </router-link>
+          <div class="postDate">Posté le {{ post.date }}</div>
         </div>
       </div>
     </div>
@@ -16,7 +19,13 @@
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
+
 export default {
+  name: 'Listing',
+  components: {
+    Header,
+  },
   data() {
     return {
       posts: null,
@@ -44,15 +53,11 @@ export default {
 }
 .about{
   height: 100vh;
+  background-image: url("../assets/img/png-transparent-hamburger-french-fries-fast-food-onion-ring-fried-chicken-hd-fries-potato-fries-food.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.background{
-  position: fixed;
-  width: 50%;
-  left: 50%;
-  top: -10%;
-  transform: translate(-50%, -0%);
-  opacity: 60%;
-}
+
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -74,6 +79,11 @@ export default {
   width: 100px;
   background-color: tomato;
 }
+.picture img{
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
 .article_link{
   max-width: 70%;
   background-color: white;
@@ -86,4 +96,12 @@ export default {
   color: black;
 }
 
+.link:hover {
+  font-weight: bold;
+}
+
+.postDate{
+  font-style: italic;
+  font-size: 14px;
+}
 </style>

@@ -2,7 +2,7 @@
   <div class="header">
     <div class="container">
       <router-link to="/" class="home_link"
-        ><h1>My Food</h1>
+        ><img src="@/assets/img/logo.png" alt="My Food logo" class="logo">
         </router-link>
       <div class="header__links">
         <router-link to="/" class="link">Accueil</router-link>
@@ -23,8 +23,6 @@
 }
 
 .container{
-  width: 70%;
-  margin-left: 15%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,7 +30,7 @@
 }
 .header {
   width: 100%;
-  padding: 26px 32px 26px 32px;
+  padding: 26px 0px 26px 0px;
   background-color: #ffffff;
   
 
@@ -45,6 +43,9 @@
   font-weight: 900;
   font-size: 24px;
 
+}
+.header .logo{
+  width: 30%;
 }
 
 .header__links {

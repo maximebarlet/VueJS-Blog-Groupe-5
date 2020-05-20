@@ -1,6 +1,7 @@
 <template>
   <div v-if="post">
     <Header />
+    <img :src="require(`@/assets/img/${post.miniature}`)" alt="miniature article" />
     <h1> {{ post.title }} </h1>
     <p> Posté le {{ post.date }} </p>
     <p> {{ post.body }} </p>
@@ -33,3 +34,16 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+</style>
