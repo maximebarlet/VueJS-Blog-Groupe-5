@@ -1,7 +1,6 @@
 <template>
   <div class="favRestaurants">
     <div class="favRestaurantsContainer">
-      <h2>Nos restaurants préférés</h2>
       <div class="content">
       <div class="card" v-for="restaurants in restaurants" :key="restaurants.id">
         <div class="cardTitle">
@@ -52,7 +51,11 @@ export default {
 
 <style scoped>
 .favRestaurantsContainer{
-  padding: 60px 0px 26px 0px;
+  padding: 0px 0px 26px 0px;
+  background-color: none;
+}
+.favRestaurants{
+  margin-top: -150px;
 }
 .favRestaurantsContainer h2{
   text-align: center;
@@ -62,6 +65,7 @@ export default {
   justify-content: space-around;
   width: 100%;
   margin-top: -40px;
+  background-color: #F2F2F2;
 }
 .favRestaurantsContainer .content .readMore{
   position: absolute;
@@ -102,5 +106,17 @@ export default {
 .favRestaurantsContainer .content .card img{
     width: 100%;
     height: 475px;
+}
+
+@media screen and (max-width: 768px){
+  .favRestaurantsContainer .content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.favRestaurantsContainer .content .card {
+    width: 100%;
+}
+
 }
 </style>

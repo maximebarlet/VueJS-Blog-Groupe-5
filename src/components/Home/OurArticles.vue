@@ -5,6 +5,11 @@
         <img src="@/assets/img/newsHomePic.png" alt="Food" class="picture">
         <div class="lastNews">
         <h2>Les dernières nouveautés</h2>
+        <div class="article_link">
+          <router-link :to="`/article/${ post.id }`" class="link">
+            {{ post.title }}
+          </router-link>
+        </div>  
         </div>
       </div>
     </div>
@@ -16,6 +21,19 @@
 export default {
   name: "OurArticles",
   components: {
+  },
+  data() {
+    return {
+      posts: null,
+    };
+  },
+
+  created() {
+    fetch("https://my-json-server.typicode.com/maximebarlet/VueJS-Blog-Groupe-5/posts/").then((response) => {
+      response.json().then((data) => {
+        this.posts = data;
+      });
+    });
   },
 };
 </script>
@@ -35,4 +53,15 @@ export default {
 .lastNews h2{
   text-align: center;
 }
+@media screen and (max-width: 768px){
+ .ourArticlesContent{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.ourArticlesContent .picture{
+  width: 100%;
+}
+}
+
 </style>

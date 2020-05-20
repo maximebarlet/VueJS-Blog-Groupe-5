@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <main>
       <div class="main_content">
         <img src="@/assets/img/mainHomePic.png" alt="Food" class="picture">
@@ -36,17 +36,24 @@ export default {
   src: url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
 }
 
+.wrapper{
+  margin-bottom: 30px;
+}
+
 .main_content{
-  background-color: white;
+  background-color: #F2F2F2;
   display: flex;
 
 }
 .picture{
   width: 50%;
+  margin-bottom: 50px;
 }
 .text{
-  width: 50%;
-  padding: 50px;
+    width: 50%;
+    padding: 50px 50px 0px 50px;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
 }
 .title{
   font-size: 25px;
@@ -61,5 +68,21 @@ export default {
   font-family: "Abhaya Libre";
   font-size: 18px;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 768px){
+  .main_content{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 30px;
+
+}
+.picture{
+  width: 100%;
+}
+.text{
+  width: 100%;
+  padding: 5px;
+}
 }
 </style>

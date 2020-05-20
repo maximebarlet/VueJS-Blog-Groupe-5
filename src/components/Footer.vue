@@ -1,14 +1,19 @@
 <template>
   <div class="footer">
-    Footer
+    Created by SNK Group - anno 2020
   </div>
 </template>
 
 <style scoped>
   .footer {
     margin-top: 80px;
-
     width: 100vw;
-    height: 140px;
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-left: -16vw;
+    margin-right: -50vw;
+    padding: 10px;
+
   }
 </style>
