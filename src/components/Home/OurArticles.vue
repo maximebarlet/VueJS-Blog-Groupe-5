@@ -4,12 +4,16 @@
       <div class="ourArticlesContent">
         <img src="@/assets/img/newsHomePic.png" alt="Food" class="picture">
         <div class="lastNews">
-        <h2>Les dernières nouveautés</h2>
-        <div class="article_link">
-          <router-link :to="`/article/${ post.id }`" class="link">
-            {{ post.title }}
-          </router-link>
-        </div>  
+          <h2>Les dernières nouveautés</h2>
+          <div class="article_link">
+            <div class="card" v-for="post in posts" :key="post.id">
+              <div class="article_link">
+                <router-link :to="`/article/${ post.id }`" class="link">
+                  {{ post.title }}
+                </router-link>
+              </div>
+            </div>
+          </div>  
         </div>
       </div>
     </div>
@@ -22,6 +26,7 @@ export default {
   name: "OurArticles",
   components: {
   },
+
   data() {
     return {
       posts: null,
