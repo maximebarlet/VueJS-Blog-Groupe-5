@@ -15,16 +15,19 @@
         </div>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Listing',
   components: {
     Header,
+    Footer
   },
   data() {
     return {
@@ -103,6 +106,24 @@ export default {
 
 .postDate{
   font-style: italic;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px){
+  .link {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.postDate{
+  font-style: italic;
+  font-size: 10px;
+}
+.card {
+  width: 90%;
+  margin-left: 5%;
+  padding: 20px 0px 20px 0px;
+  
+}
 }
 </style>
