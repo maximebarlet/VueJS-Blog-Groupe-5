@@ -5,9 +5,9 @@
         <img src="@/assets/img/newsHomePic.png" alt="Food" class="picture">
         <div class="lastNews">
           <h2>Les dernières nouveautés</h2>
-          <div class="article_link">
+          <div class="articlesLink">
             <div class="card" v-for="post in posts" :key="post.id">
-              <div class="article_link">
+              <div class="articlelink">
                 <router-link :to="`/article/${ post.id }`" class="link">
                   {{ post.title }}
                 </router-link>
@@ -47,16 +47,25 @@ export default {
 .ourArticlesContent{
   display: inline-flex;
   width: 100%;
+  background-color: #F2F2F2;
 }
 .ourArticlesContent .picture{
   display: inline-flex;
   width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .lastNews{
   padding: 50px;
+  background-color: #FFFFFF;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .lastNews h2{
   text-align: center;
+}
+.articlelink{
+  padding: 10px 0px 10px 0px;
 }
 @media screen and (max-width: 768px){
  .ourArticlesContent{
@@ -66,6 +75,7 @@ export default {
 }
 .ourArticlesContent .picture{
   width: 100%;
+  margin-top: -50px;
 }
 }
 

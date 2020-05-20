@@ -86,7 +86,7 @@ export default {
 }
 .article_link{
   width: 70%;
-  height: 100px;
+  height: 200px;
   background-color: white;
   padding: 40px 20px;
   font-family: "Abhaya Libre";
@@ -94,6 +94,7 @@ export default {
 .link {
   text-decoration: none;
   color: black;
+  font-size: 35px;
 }
 
 .link:hover {

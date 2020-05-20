@@ -27,10 +27,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  width: 70%;
+  margin-left: 15%;
 }
 .header {
-  width: 100%;
-  padding: 26px 0px 26px 0px;
+  width: 100vw;
+  margin-left: -16vw;
+  margin-right: -50vw;
+  padding: 10px 0px 10px 0px;
   background-color: #ffffff;
   
 
@@ -49,13 +53,12 @@
 }
 
 .headerLinks {
-  width: 30%;
+  width: 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-family: 'Abhaya Libre';
-  font-size: 14px;
-  letter-spacing: -0.06em;
+  font-size: 16px;
 }
 
 .link {

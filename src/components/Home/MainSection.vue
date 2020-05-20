@@ -48,12 +48,14 @@ export default {
 .picture{
   width: 50%;
   margin-bottom: 50px;
+  margin-top: 15px;
 }
 .text{
     width: 50%;
     padding: 50px 50px 0px 50px;
     background-color: #FFFFFF;
     margin-bottom: 50px;
+    margin-top: 15px;
 }
 .title{
   font-size: 25px;
@@ -79,6 +81,7 @@ export default {
 }
 .picture{
   width: 100%;
+  margin-top: -50px;
 }
 .text{
   width: 100%;

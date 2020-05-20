@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 .favRestaurantsContainer{
-  padding: 0px 0px 26px 0px;
+  padding: 0px 0px 0px 0px;
   background-color: none;
 }
 .favRestaurants{
@@ -113,6 +113,7 @@ export default {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 70px;
 }
 .favRestaurantsContainer .content .card {
     width: 100%;

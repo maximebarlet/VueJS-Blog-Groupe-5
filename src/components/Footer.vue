@@ -6,7 +6,7 @@
 
 <style scoped>
   .footer {
-    margin-top: 80px;
+    margin-top: 0px;
     width: 100vw;
     text-align: center;
     background-color: #000000;
@@ -15,5 +15,10 @@
     margin-right: -50vw;
     padding: 10px;
 
+  }
+  @media screen and (max-width: 768px){
+    .footer {
+    margin-top: 0px;
+  }
   }
 </style>
