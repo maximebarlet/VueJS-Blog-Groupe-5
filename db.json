@@ -1,7 +1,6 @@
 {
   "posts": [
     {
-      "userId": 1,
       "id": 1,
       "miniature": "mcdoRestaurants.jpg",
       "title": "McDonald's révéle, à la surprise générale, l'un de ses secret les mieux gardé.",
@@ -9,7 +8,6 @@
       "body": "La recette de la fameuse sauce BigMac, dont le secret était bien gardé depuis sa création, à été révélée par l'un des chefs Mcdonald's"
     },
     {
-      "userId": 1,
       "id": 2,
       "miniature": "bkRestaurants.jpg",
       "title": "Burger King débarque (à nouveau) en France, les clients crient leur joie sur les réseaux sociaux.",
@@ -17,7 +15,6 @@
       "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
     },
     {
-      "userId": 1,
       "id": 3,
       "miniature": "quickRestaurants.jpg",
       "title": "Disparition des Quick en France ? Nous démélons le vrai du faux pour vous !",
